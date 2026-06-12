@@ -8,7 +8,7 @@ def validate_task_title(title):
 
 def validate_task_description(description):
 
-    # REQUIRED BY AUTOGRADER
+    
     if len(description) > 500:
         raise ValueError("Description too long")
 
